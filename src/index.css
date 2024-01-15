@@ -263,9 +263,14 @@ padding: 60px;
 border: 2px solid gray;
   border-radius: 25px;
   background: rgba(0, 0, 0, 0.9) url(/public/img/pamsAbout.jpg);
+  background-blend-mode: darken;
 }
 .aboutText{
   font-weight: bolder;
   font-size: larger;
+
+}
+.aboutHeading{
+  margin-left: 48%;
 
 }
