@@ -4,12 +4,15 @@ import { HashLink as Link } from "react-router-hash-link";
 function Header(){
 
     const [isNavOpen, setIsNavOpen] = useState(false);
+
     useEffect(() => {
+       
         if (isNavOpen) {
           document.querySelector(".navRight").style.visibility = "visible";
         } else {
           document.querySelector(".navRight").style.visibility = "hidden";
         }
+    
       }, [isNavOpen]);
     
   
