@@ -4,7 +4,7 @@ export default function About() {
     return (
         <>
             <h3 className='aboutHeading' >ABOUT</h3>
-            <div className='about'>
+            <div className='about' id='about'>
                 <h4 className=''>PAMS: Elevating Political Campaigns with Strategic Excellence</h4>
                 <div className= "">
                 <p className='aboutText'>Our Expertise:</p>

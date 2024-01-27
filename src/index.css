@@ -36,7 +36,7 @@
 }
 
 .navList {
-  margin: 1% 8%;
+  margin: 0px 6px;
 }
 .title{
   text-decoration: none;
@@ -272,5 +272,101 @@ border: 2px solid gray;
 }
 .aboutHeading{
   margin-left: 48%;
+
+}
+.container {
+  display: inline-block;
+  cursor: pointer;
+  visibility: hidden;
+  margin: 10px 20px;
+}
+
+.bar1, .bar2, .bar3 {
+  width: 35px;
+  height: 5px;
+  background-color: #333;
+  margin: 6px 0;
+  transition: 0.4s;
+}
+
+.change .bar1 {
+  transform: translate(0, 11px) rotate(-45deg);
+}
+
+.change .bar2 {opacity: 0;}
+
+.change .bar3 {
+  transform: translate(0, -11px) rotate(45deg);
+}
+.navBox{
+  display: flex;
+  flex-direction: row;
+}
+@media only screen and (max-width: 800px){
+.section1{
+  flex-direction: column;
+  align-items: center;
+  margin: 0;
+  width: 100%;
+}
+.logo{
+  width: 260px;
+}
+h2{
+  width: 140px;
+}
+.btn{
+  
+  margin-bottom: 10px;
+}
+.sec2para{
+  width: 100%;
+}
+.WhatWeDo{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.card{
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.solutionTitle{
+  margin-left: 0;
+}
+.SolutionsCard{
+  width: 100%;
+}
+.about{
+  margin: 0;
+  padding: 10px;
+}
+.aboutHeading{
+  margin-left: 44%;
+}
+.input{
+  width: 100%;
+}
+.container{
+  visibility: visible;
+}
+.navRight{
+  flex-direction: column;
+  background-color: black;
+  position: absolute;
+  top: 70%;
+  right: 2%;
+  border-radius: 12px;
+  visibility: hidden;
+  
+}
+.navList{
+  color: white;
+}
+.nav{
+  margin-left: 0;
+  margin-right: 0;
+}
 
 }
