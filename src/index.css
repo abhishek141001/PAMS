@@ -246,6 +246,7 @@ form{
 .clientsImg{
   width:100px;
   margin: 10px;
+  margin-right: 25px;
 }
 .Submitted{
   padding: 40px;
@@ -253,7 +254,7 @@ form{
 }
 .about{
   /* background: black; */
-  color: white;
+  color: black;
   margin: 1%;
   margin-top: 1%;
   margin-left: 1%;
@@ -263,7 +264,7 @@ margin-right: 10%;
 padding: 60px;
 border: 2px solid gray;
   border-radius: 25px;
-  background: rgba(0, 0, 0, 0.9) url(/public/img/pamsAbout.jpg);
+  /* background: rgba(0, 0, 0, 0.9) url(/public/img/pamsAbout.jpg); */
   background-blend-mode: darken;
 }
 .aboutText{

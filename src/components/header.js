@@ -7,7 +7,7 @@ function Header(){
 
     useEffect(() => {
        
-        if (isNavOpen) {
+        if (window.innerWidth<800 && isNavOpen) {
           document.querySelector(".navRight").style.visibility = "visible";
         } else {
           document.querySelector(".navRight").style.visibility = "hidden";
